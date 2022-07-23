@@ -13,7 +13,8 @@ console.log('contract: ', contract);
 export default function Home() {
 	useEffect(() => {
 		(async () => {
-			const block = await provider.getBlockNumber();
+      const block = await provider.getBlockNumber();
+      const 
 		})();
 	}, []);
 
